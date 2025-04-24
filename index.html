@@ -10,72 +10,76 @@
 </head>
 <body>
 
-    <div class="header">
+    <header class="header">
         <img src="/Resource/Data/Logosvg.svg" alt="Logo" width="60px" class="logo" title="Home" >
         
-        <div class="header-right">
-          <a class="active" href="#home">Home</a>
-          <a href="#contact">Gallery</a>
-          <a href="#about">Price</a>
-          <a href="#services">Booking</a>
+        <nav class="navbar">
+          <a class="navbar__link navbar__link--active" href="#home">Home</a>
+          <a class="navbar__link" href="#contact">Gallery</a>
+          <a class="navbar__link" href="#about">Price</a>
+          <a class="navbar__link" href="#services">Booking</a>
+        </nav>
+    </header>
+
+
+    <section class="main-section">
+        <div class="main-section__intro">
+            <h1>Dynamic Photo & Video Solution.</h1>
+            <h6>We provide all kinds of Photo, Video, and Editing Solutions. Our expert team is always ready to uplift your desires.</h6>
         </div>
-      </div>
 
-    <div class="topdev">
-        <h1>Dynamic Photo & Video Solution.</h1>
-        <h6>We provide all kind of Photo, Video and editing Solution. Our expert team always ready to uplift your desire.</h6>
-    </div>
-
-    <div class="middev">
-        <h2>Event Capture</h2>
-        <div class="middevcon">
-            <div class="middev1">
-                <img src="/Resource/Data/weddingsq.jpeg" alt="Wedding" width="101%" height="101%" >
-                <h3>Wedding</h3>
-                <h5>Best Qulity wedding photos and videos for your happy mairrage life.</h5>
-            </div>
-            <div class="middev2">
-                <img src="/Resource/Data/birthdaysq.jpg" alt="Annaprasan" width="101%" height="101%">
-                <h4>Birthday</h4>
-                <h5>Best Qulity birthday photos and videos for your special happy birthday.</h5>
-             </div>
-            <div class="middev3">
-              <img src="/Resource/Data/annaprasansq.jpg" alt="Annaprasan" width="101%" height="101%">
-              <h4>Annaprasan</h4>
-              <h5>Best Qulity Annaprasan photos and videos for your happy mairrage life.</h5>
-            </div>
-        </div>
-    </div>
-
-    <div class="middev">
-        <div class="middevcon">
-            <div class="middev4">
-                <h2>Model Photography</h2>
-                <div class="leftcol">    
-                    <div>
-                        <h3>Fashion</h3>
-                        <h5>Best Qulity fashion photos and videos for your special happy birthday.</h5>
-                    </div> 
-                    <div>
-                        <h3>Fashion</h3>
-                        <h5>Best Qulity fashion photos and videos for your special happy birthday.</h5>
-                    </div> 
-                        <div>
-                        <h3>Fashion</h3>
-                        <h5>Best Qulity fashion photos and videos for your special happy birthday.</h5>
-                    </div> 
-                        <div>
-                        <h3>Fashion</h3>
-                        <h5>Best Qulity fashion photos and videos for your special happy birthday.</h5>
-                    </div> 
+        <div class="event-capture">
+            <h2>Event Capture</h2>
+            <div class="event-capture__container">
+                <div class="event-capture__item">
+                    <img class="event-capture__image" src="/Resource/Data/weddingsq.jpeg" alt="Wedding">
+                    <h4 class="event-capture__title">Wedding</h4>
+                    <h5 class="event-capture__description">Best quality wedding photos and videos for your happy marriage life.</h5>
+                </div>
+                <div class="event-capture__item">
+                    <img class="event-capture__image" src="/Resource/Data/birthdaysq.jpg" alt="Birthday">
+                    <h4 class="event-capture__title">Birthday</h4>
+                    <h5 class="event-capture__description">Best quality birthday photos and videos for your special happy birthday.</h5>
+                </div>
+                <div class="event-capture__item">
+                    <img class="event-capture__image" src="/Resource/Data/annaprasansq.jpg" alt="Annaprasan">
+                    <h4 class="event-capture__title">Annaprasan</h4>
+                    <h5 class="event-capture__description">Best quality Annaprasan photos and videos for your happy marriage life.</h5>
                 </div>
             </div>
+        </div>
 
-            <div class="middev5">
-                <img src="/Resource/Data/model.jpeg" alt="Model" width="101%" height="101%">
+        <div class="model-photography">
+            <div class="model-photography__container">
+                <div class="model-photography__details">
+                    <h2>Model Photography</h2>
+                    <div class="model-photography__list">    
+                        <div>
+                            <h3>Fashion</h3>
+                            <h5>Best quality fashion photos and videos for your special moments.</h5>
+                        </div> 
+                        <div>
+                            <h3>Fashion</h3>
+                            <h5>Best quality fashion photos and videos for your special moments.</h5>
+                        </div> 
+                        <div>
+                            <h3>Fashion</h3>
+                            <h5>Best quality fashion photos and videos for your special moments.</h5>
+                        </div> 
+                        <div>
+                            <h3>Fashion</h3>
+                            <h5>Best quality fashion photos and videos for your special moments.</h5>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="model-photography__image-container">
+                    <img class="model-photography__image" src="/Resource/Data/model.jpeg" alt="Model" width="101%" height="101%">
+                </div>
             </div>
         </div>
-    </dev>
+    </section>
+    
 
 </body>
 </html>
